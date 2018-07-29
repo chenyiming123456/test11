@@ -1,0 +1,177 @@
+.w1200{width:1200px;margin:0 auto}
+html,body{width:1423px;}
+.topBar{background:#f2f2f2;height:30px;font:400 12px/30px "宋体";}
+.topBar .login b{float:left;color:#666;}
+.topBar .login  a{float:left;color:#e60000;}
+.topBar .login{margin-left:7px;float:left;}
+.topBar .login  span{float:left;color:#d1d1d1;margin:0 9px;}
+.topBar .tool{float:right;}
+
+.topBar .tool ul li{float:left;marign-top:1px;}
+.topBar .tool .dt{line-height:28px;display:block;padding:0 16px;position: relative;}
+.topBar .tool .dt a:hover{color:#e60000;text-decoration: underline;}
+.topBar .icon{position: absolute;background:url(../images/homeindex.png) no-repeat 0 0;left:68px;top:12px;height:4px;width:8px;}
+.topBar .tool .drop{position: relative;border:1px solid transparent;}
+.topBar .tool .drop:hover{border:1px solid #dadada;border-bottom:1px solid white;background:white;}
+
+.topBar .tool .drop .dropLayer{z-index:99;background:white;display:none;width:162px;position: absolute;top:28px;left:-1px;border:1px solid #dadada;border-top:none;box-shadow:1px 2px 1px rgba(0,0,0,.1)}
+.topBar .tool .drop .dropLayer a{color:#666;float:left;width:76px;line-height:24px;margin-bottom:6px;text-align:center;}
+.topBar .tool .drop:hover .dropLayer{display:block;}
+.topBar .tool .drop:hover .dt .icon{background:url(../images/homeindex.png) no-repeat 0 -4px;}
+.topBar .tool .drop .dropLayer a:hover{text-decoration: underline;}
+.topBar .tool .drop1{position:relative;border:1px solid transparent;}
+.topBar .tool .drop1 .erweimaWrap{z-index:99;background:white;position: absolute;width:164px;right:-1px;display:none;border:1px solid #dadada;border-top:none;box-shadow:1px 2px 1px rgba(0,0,0,.1)}
+.topBar .tool .drop1:hover{border:1px solid #dadada;border-bottom:1px solid white;background:white;}
+.topBar .tool .drop1:hover .erweimaWrap{display:block;}
+.tool .drop1:hover .dt .icon{background:url(../images/homeindex.png) no-repeat 0 -4px;}
+.topBar .tool .drop1 .erweimaWrap .aa{margin-bottom:5px;overflow:hidden;}
+.topBar .tool .drop1 .erweimaWrap .bb{margin-bottom:5px;overflow:hidden;} 
+.topBar .tool .drop1 .erweimaWrap .bb{margin-bottom:5px;overflow:hidden;} 
+.topBar .tool .drop1 .erweimaWrap .erweima{float:left;}
+.topBar .tool .drop1 .erweimaWrap .text{float:left;font-weight:400;margin-left:8px;}
+.topBar .tool .drop1 .erweimaWrap .text b{display:block;color:#e60000;font:12px/30px "宋体";}
+.topBar .tool .drop1 .erweimaWrap .text span{display:block;font:12px/20px "宋体";}
+
+.searchBar{height:100px;position: relative;background:#fff;}
+.searchBar.fixed{z-index:500;background:#fff;position:fixed;top:0;left:0;width:100%;height:70px;box-shadow:1px 1px 10px #ddd;}
+.searchBar .logo{float:left;padding:21px 0 25px 0;width:199px;margin-right:75px;}
+.searchBar .searchArea{float:left;margin-top:20px;}
+.searchBar .searchArea .searchFrom{position:relative;float:left;height: 36px;width:606px;border:2px solid #e60000;margin-left:15px;}
+.searchBar .searchArea .searchFrom .inputWrap{float:left;display:block;padding:8px 0;width:508px;font-size:12px;font-family: "宋体";}
+.searchBar .searchArea .searchFrom .inputWrap input{width:100%;height:20px;line-height: 20px;vertical-align:middle;border:none;background:white;text-indent:1em;color:#666;font-size:12px;outline: 0;}
+.searchBar .searchArea .searchFrom .searchBut{float:left;height:36px;background:#e60000;color:white;line-height:36px;width:98px;text-align:center;font-size:14px;}
+.searchBar .searchArea .searchFrom .dropSearch{position: absolute;width:63px;right:98px;height:36px;top:0;border-left:1px solid #dbdbdb;padding:0 9px 0 9px;background:white;}
+.searchBar .searchArea .searchFrom dl{position: relative;cursor:pointer;background: #fff;}
+.searchBar .searchArea .searchFrom dl dt{height:36px;text-align:center;height:36px;}
+.searchBar .searchArea .searchFrom dl dt span{line-height: 36px;position: relative;padding-right:15px;}
+.searchBar .searchArea .searchFrom dl dt span i{font-size:12px;}
+.searchBar .searchArea .searchFrom dl dt span .icon{position: absolute;background:url(../images/homeindex.png) no-repeat 0 -10px;width:7px;height:4px;top:4px;right:0px;}
+.searchBar .searchArea .searchFrom dl:hover dt span .icon{background:url(../images/homeindex.png) no-repeat 0 -14px;}
+.searchBar .searchArea .searchFrom dl dd{background:#fff;position: absolute;top:36px;left:-10px;width:80px;border:1px solid #dbdbdb;line-height: 24px;text-indent:8px;border-top:none;}
+.searchBar .searchArea .searchFrom dl dd{display:none;z-index:50;}
+.searchBar .searchArea .searchFrom dl dd ul li.on{color:#e02626;background:#f5f5f5;}
+
+
+.searchBar .searchArea .moreSearch{float:left;line-height:40px;margin-left:15px;}
+.searchBar .searchArea .moreSearch a{color:#e60000}
+.searchBar .searchArea .hotword{line-height:28px;}
+.searchBar .searchArea .hotword a{float:left;color:#999;margin-left:15px;}
+.searchBar .searchArea .hotword a:hover{color:#e60000;}
+.searchBar .notice{float:right;position: relative;padding:0 0 0 33px;width:135px;margin:25px 25px 0 0 }
+.searchBar .notice .noticePanel{height:40px;overflow: hidden;position: relative;z-index: 2;}
+.searchBar .notice .noticePanel .tempWrap{position: relative;overflow: hidden;height:40px;}
+.searchBar .notice .noticePanel .tempWrap ul{position: absolute;height:160px;left:0;top:0;}
+.searchBar .notice .noticePanel .tempWrap ul li{line-height:40px;text-align:center;height:40px;}
+.searchBar .notice .icon{position: absolute;width:23px;height:23px;left:0;top:50%;margin-top:-11px ;background:url(../images/homeindex.png) no-repeat 0 -27px;}
+.searchBar.fixed .hotword{display:none;}
+.searchBar.fixed .notice{display:none;}
+.searchBar.fixed .logo{padding:8px 0 0 0;}
+.searchBar.fixed .searchArea{margin-top:14px;}
+.searchBar.fixed .searchArea .searchFrom{width:780px;}
+.searchBar.fixed .searchArea .searchFrom .inputWrap{width:682px;}
+
+
+
+
+
+
+
+#nav{position:relative;border-bottom:2px solid #e60000;}
+#nav .w1200{height:42px;background:transparent;}
+
+#nav .all-goods{float:left;width:200px;height:42px;position:relative;}
+
+#nav .all-goods h2{z-index:114;background:#e60000 url(../images/categoryarrowdown.png) no-repeat 159px 18px;line-height: 42px;color:white;font-size:16px;position: relative;font-family: "微软雅黑";text-indent:40px;cursor: pointer;}
+
+#nav .all-goods h2 .icon{position: absolute;width:16px;height:15px;background:url(../images/homeindex.png) no-repeat -9px 0;left:13px;top:14px;}
+
+#nav .special-category{float:left;width:1000px;}
+#nav .special-category li{float:left;line-height: 42px;}
+#nav .special-category li a{display: block;height:42px;padding:0 29px;font-size:18px;font-family: "微软雅黑";}
+
+#nav .special-category li.cur a{font-weight:bold;color:#e60000;}
+#nav .special-category li a:hover{color:#e60000;}
+
+#nav .all-goods .category{z-index:999;display:none;position: absolute;top:42px;width:200px;height:696px;}
+#nav .all-goods:hover .category{display:block;}
+#nav .all-goods .category .categoryInner{border:1px solid #e60000;border-top:none;background:white;}
+#nav .all-goods .category .category-list li{z-index:113;padding-top:2px;background: url(../images/navline.jpg) no-repeat bottom center;padding-bottom:2px ;border-left:2px solid white;border-right:none;position: relative;vertical-align: bottom;}
+#nav .all-goods .category .category-list li .category-info{padding-left:11px;position: relative;}
+#nav .all-goods .category .category-list li .category-info .category-name{padding-top:8px;}
+#nav .all-goods .category .category-list li .category-info .category-name a{color: #e60000;font-family: "微软雅黑";font-size:16px;}
+#nav .all-goods .category .category-list li .c-category-list{position: relative;margin-top:7px;line-height: 24px;padding-bottom:10px;margin-right:11px;}
+
+#nav .all-goods .category .category-list li .c-category-list a{margin-right:12px;color:#666;white-space: nowrap;}
+#nav .all-goods .category .category-list li  em{position: absolute;top:7px;right:3px;width:16px;height:16px;font-size:16px;color:#666;}
+#nav .all-goods .category .category-list li .menu-item{z-index:999;background:white;left:197px;position: absolute;width:757px;border:2px solid #e60000;}
+
+#nav .all-goods .category .category-list li .menu-item .area-bg{padding:10px 0 10px 16px;}
+
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist{padding-right:32px;}
+
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist li{overflow: hidden;padding:9px 0;border-bottom:1px solid #f0f0f0;background:none;}
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist h3.mcate-item-hd{font-size:12px;float:left;width:85px;line-height: 24px;}
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist h3.mcate-item-hd a{color:#e60000;}
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist p.mcate-item-bd{float:left;width:600px;line-height: 24px;overflow: hidden;}
+
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist p.mcate-item-bd a{float:left;margin:0 16px;white-space: nowrap;color:#666;}
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist p.mcate-item-bd a:hover{color:#e60000;}
+#nav .all-goods .category .category-list li .menu-item .area-bg .sublist p.mcate-item-bd span{float:left;color:#d6d6d6;}
+
+#nav .all-goods .category .all_category{text-align:right;paddng-right:12px;line-height: 21px;}
+#nav .all-goods .category .all_category a{color:#666;}
+
+.content{z-index: 7;}
+.banner{margin-top:8px;}
+.crumbsBar{margin-top:9px;overflow: hidden;}
+.crumbsBar .crumsItem{float:left;line-height: 22px;}
+.crumbsBar .crumsItem a{color:#666;}
+.crumbsBar .crumsItem a:hover{color:#e60000;}
+.crumbsBar i{float:left;width:5px;height:9px;margin:4px 7px 0 8px;font-weight: 400;}
+.crumbsBar .crumsItem span{color:#666;}
+.sortBar{margin-top:10px;}
+.sortBar .sortInner{border-bottom:1px solid #e60000;overflow: hidden;}
+.sortBar .sortInner .sortNav{float:left;}
+.sortBar .sortInner .sortNav ul{height:28px;overflow: hidden;padding-left:1px;}
+.sortBar .sortInner .sortNav ul li{float:left;display: inline;text-align: center;}
+.sortBar .sortInner .sortNav ul li a{display: block;width:68px;border:1px solid #e9e9e9;margin:0 0 -1px -1px;line-height: 26px;border-radius: 5px 5px 0 0;position: relative;}
+.sortBar .sortInner .sortNav ul li.on a{border:1px solid #e60000;background:#e60000;color:#fff;}
+.sortBar .sortInner .sortNav ul li a i{position: relative;}
+.sortBar .sortInner .sortNav ul li.saleNum a i{padding-right:0;}
+.sortBar .sortInner .sortNav ul li a .icon{position: absolute;width:7px;height:11px;right:-12px;top:1px;background: url(../images/childredSprit.png) no-repeat -268px -419px;}
+
+
+
+
+.sortBar .sortInner .sortRight{float:right;overflow: hidden;padding-top:4px;}
+
+.container{margin-top:18px;}
+.listMain{overflow: hidden;}
+.listMain .list .bookBig ul{overflow: hidden;}
+.listMain .list .bookBig ul li{float:left;width:202px;height:350px;padding:16px 17px 0;border:2px solid #fff;margin-bottom:10px;}
+.listMain .list .bookBig ul li:hover{border:2px solid #ccc;}
+.listMain .list .bookBig ul li .cover{height:200px;text-align: center;padding-bottom:5px;position: relative;}
+.listMain .list .bookBig ul li .cover a img{max-height: 200px;max-width: 200px;}
+.listMain .list .bookBig ul li .infor{overflow: hidden;}
+.listMain .list .bookBig li .priceWrap{height:24px;line-height: 24px;overflow: hidden;vertical-align: middle;}
+.listMain .list .bookBig li .priceWrap .sellPrice{float:left;font-size: 18px;font-family: "微软雅黑";color: #e60000;margin-right:10px;}
+.listMain .list .bookBig li .priceWrap .discount{float:left;height:16px;color:#666;line-height: 16px;text-align: center;margin-top:6px;font-family: arial;}
+.listMain .list .bookBig li .priceWrap .price{float:right;color:#999;margin-top:4px;}
+.listMain .list .bookBig li .name{line-height:22px;overflow: hidden;white-space: nowrap;}
+.listMain .list .bookBig li .name a{font-size: 12px;display: block;}
+.listMain .list .bookBig li .otherInfor{line-height: 22px;overflow: hidden;}
+.listMain .list .bookBig li .otherInfor b{color:#999;}
+.listMain .list .bookBig li .otherInfor i{color: #999;margin:0 1px;}
+.listMain .list .bookBig li .activeIcon{overflow: hidden;padding:5px 0;height:20px;}
+.listMain .list .bookBig li .activeIcon a{float:left;margin-right:5px;color:#fff;background:#e60000;line-height: 20px;padding:0 6px;border-radius: 3px;}
+.listMain .list .bookBig li .operateButton{overflow: hidden;padding-top:5px;}
+.listMain .list .bookBig li .operateButton em{float:left;height:30px;font-size:14px;}
+
+.listMain .list .bookBig li .operateButton em{line-height: 30px;border:1px solid #ff1a1a;border-radius: 3px;width:68px;text-align: center;color:#ff1a1a;margin-right:10px;}
+.listMain .list .bookBig li .operateButton .collect{line-height: 30px;border:1px solid #999;border-radius: 3px;width:33px;text-align: center;color:#999;margin-right:10px;}
+.pagination{height:30px;text-align: center;margin-top:30px;padding-bottom: 30px;}
+.pagination .paging{position: relative;float:right;overflow: hidden;}
+
+
+
+

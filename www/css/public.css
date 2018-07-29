@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*清楚默认属性*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;}
+body{font:12px  "宋体"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none} 
+
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;}
+table{border-collapse:collapse;}
+.ind2{text-indent:2em;}
+del{text-decoration-line:line-through ;}
+/*图片居中*/
+.valign{text-align:center;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;width:0;}
+.valign img{vertical-align:middle;}
+/*文本出现省略号*/
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+
+
+/*定位居中*/
+.center{left:0;right:0;top:0;bottom:0;margin:auto;}
+
+/*清除浮动*//*记住要考*/
+.clear{zoom:1;}/*解决ie高度塌陷问题*/
+.clear:before{content:"";display:table;}
+.clear:after{content:"";display:block;clear:both;}
+
+input,textarea{outline:none;}/*去除谷歌表单外边框*/
+textarea{resize:none;}/*禁止拖动*/
